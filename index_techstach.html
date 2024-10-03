@@ -1,39 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tech Stach</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Resource Hub</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #007BFF;
+            color: #ffffff;
+            padding: 20px;
+            text-align: center;
+        }
+        nav {
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #007BFF;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 10px;
+            background: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background: #007BFF;
+            color: white;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#products">Products</a></li>
-        <li><a href="#compare">Compare</a></li>
-      </ul>
-      <div class="user-details">
-        <img src="your-profile-picture.jpg" alt="Your Profile Picture" class="profile-picture">
-        <span class="username">pandith</span>
-        <span class="email">katipalle@gmail.com</span>
-      </div>
-    </nav>
-  </header>
-  <main>
-    <section id="mobiles">
-      <h2>Products</h2>
-      <div class="product-grid">
-        <!-- product cards will be generated here -->
-      </div>
-    </section>
-    <section id="compare">
-      <h2>Compare</h2>
-      <div class="compare-grid">
-        <!-- compare cards will be generated here -->
-      </div>
-    </section>
-  </main>
-  <script src="script.js"></script>
+
+<header>
+    <h1>Your Resource Hub</h1>
+    <p>Explore guides, tutorials, and resources on vert.x</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#resources">Resources</a>
+    <a href="#guides">Guides</a>
+    <a href="#tutorials">Tutorials</a>
+</nav>
+
+<section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm KP, and I'm passionate about vert.x. This site is dedicated to sharing valuable resources and information to help others learn more about vert.x.</p>
+</section>
+
+<section id="resources">
+    <h2>Resources</h2>
+    <ul>
+        <li><a href="https://www.baeldung.com/vertx">vert.x baledung</a>: Brief description of the resource.</li>
+        <li><a href="[Resource Link 2]">Resource 2</a>: Brief description of the resource.</li>
+        <li><a href="[Resource Link 3]">Resource 3</a>: Brief description of the resource.</li>
+    </ul>
+</section>
+
+<section id="guides">
+    <h2>Guides</h2>
+    <ul>
+        <li><a href="https://www.baeldung.com/vertx">Guide 1</a>: Brief description of the guide.</li>
+        <li><a href="[Guide Link 2]">Guide 2</a>: Brief description of the guide.</li>
+        <li><a href="[Guide Link 3]">Guide 3</a>: Brief description of the guide.</li>
+    </ul>
+</section>
+
+<section id="tutorials">
+    <h2>Tutorials</h2>
+    <ul>
+        <li><a href="https://www.baeldung.com/vertx">Tutorial 1</a>: Brief description of the tutorial.</li>
+        <li><a href="[Tutorial Link 2]">Tutorial 2</a>: Brief description of the tutorial.</li>
+        <li><a href="[Tutorial Link 3]">Tutorial 3</a>: Brief description of the tutorial.</li>
+    </ul>
+</section>
+
+<footer>
+    <p>&copy; 2024 KP. All rights reserved.</p>
+</footer>
+
 </body>
 </html>
